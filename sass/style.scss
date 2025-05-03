@@ -35,12 +35,21 @@ body{
                     justify-content: space-between;
                     width: 90%;
                     font-size: 17px;
-                    color: rgb(122, 122, 122);
+                    
 
                     li.icon{
-                        color: green;
+                        
+                        a{
+                            color: green;
                         font-family: bold;
                         font-size: 22px;
+                        }
+                    }
+                    li{
+
+                        a{
+                            color: rgb(122, 122, 122);
+                        }
                     }
                 }
             }

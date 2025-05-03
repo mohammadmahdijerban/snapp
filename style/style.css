@@ -32,12 +32,14 @@ body main header nav ul.li {
   justify-content: space-between;
   width: 90%;
   font-size: 17px;
-  color: rgb(122, 122, 122);
 }
-body main header nav ul.li li.icon {
+body main header nav ul.li li.icon a {
   color: green;
   font-family: bold;
   font-size: 22px;
+}
+body main header nav ul.li li a {
+  color: rgb(122, 122, 122);
 }
 
 /*# sourceMappingURL=style.css.map */
