@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: bold;
+  src: url(/font/Vazir-Bold.woff2);
+}
+@font-face {
+  font-family: medium;
+  src: url(/font/Vazir-Medium.woff2);
+}
+body {
+  direction: rtl;
+  font-family: medium;
+}
+body main header nav {
+  position: relative;
+  top: 30px;
+  right: 40px;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+body main header nav ul.li {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 17px;
+}
+body main header nav ul.li li.icon a {
+  color: green;
+  font-family: bold;
+  font-size: 22px;
+}
+body main header nav ul.li li a {
+  color: rgb(122, 122, 122);
+}
+
+/*# sourceMappingURL=style.css.map */
