@@ -14,12 +14,87 @@
   font-family: medium;
   src: url(/font/Vazir-Medium.woff2);
 }
+@font-face {
+  font-family: thin;
+  src: url(/font/Vazir-Thin.woff2);
+}
 body {
   direction: rtl;
   font-family: medium;
 }
-body main header nav {
+body main header img {
+  display: inline-block;
   position: relative;
+  width: 50%;
+  left: -630px;
+  top: -400px;
+  height: 400px;
+}
+body main header div {
+  position: relative;
+  display: inline-block;
+  background-color: rgb(0, 212, 113);
+  width: 50%;
+  height: 400px;
+}
+body main header div h1 {
+  position: relative;
+  left: -100px;
+  top: 20px;
+  font-family: bold;
+  color: white;
+  line-height: 60px;
+}
+body main header div p {
+  position: relative;
+  left: -100px;
+  top: 30px;
+  font-family: thin;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 40px;
+}
+body main header div form input {
+  position: relative;
+  left: -150px;
+  top: 10px;
+  width: 240px;
+  height: 50px;
+  font-family: thin;
+  font-size: 19px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
+body main header div a.link {
+  position: relative;
+  background-color: white;
+  display: inline-block;
+  left: -420px;
+  top: -40px;
+  color: rgb(0, 212, 0);
+  width: 120px;
+  height: 50px;
+  border-radius: 7px;
+  padding: 10px;
+  padding-right: 22px;
+  font-family: bold;
+}
+body main header div a.snapp {
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 10px;
+  padding-right: 35px;
+  color: white;
+  font-family: bold;
+}
+body main header nav {
+  position: sticky;
   top: 30px;
   right: 40px;
   width: 80%;
@@ -40,6 +115,7 @@ body main header nav ul.li li.icon a {
 }
 body main header nav ul.li li a {
   color: rgb(122, 122, 122);
+  font-family: thin;
 }
 
 /*# sourceMappingURL=style.css.map */
