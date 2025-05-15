@@ -21,10 +21,64 @@
 body {
   direction: rtl;
   font-family: medium;
+  height: 3000px;
+}
+body main header img.a {
+  top: 50px;
+  left: -150px;
+  position: relative;
+}
+body main header img.s {
+  top: 50px;
+  left: -250px;
+  position: relative;
+}
+body main header img.b {
+  top: 50px;
+  left: -400px;
+  position: relative;
+}
+body main header p.a {
+  top: 50px;
+  left: -10px;
+  position: relative;
+}
+body main header p.s {
+  top: -25px;
+  left: -430px;
+  position: relative;
+}
+body main header p.b {
+  top: -100px;
+  left: -885px;
+  position: relative;
+}
+body main header p.p {
+  position: relative;
+  left: -550px;
+  top: -40px;
+  font-family: thin;
+}
+body main header img.first {
+  position: relative;
+  width: 850px;
+  height: 250px;
+  top: -170px;
+  left: -200px;
+  border-radius: 10px;
+  display: inline-block;
+}
+body main header img.two {
+  display: inline-block;
+  position: relative;
+  left: 720px;
+  top: 170px;
+  width: 400px;
+  height: 300px;
 }
 body main header div.new {
   position: relative;
-  background-color: rgb(170, 170, 170);
+  background-color: rgb(215, 215, 215);
   display: flex;
   width: 100vw;
   height: 500px;

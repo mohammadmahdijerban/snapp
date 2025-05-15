@@ -1,17 +1,74 @@
 @use"./_reset.scss";
 @use"./_font.scss";
 
+@mixin  position($top,$left,$position:relative){
+    top: $top;
+    left: $left;
+    position: $position;
+}
+
 body{
     direction: rtl;
     font-family: medium;
+    height: 3000px;
 
     main{
 
         header{
 
+            img.a{
+                @include position(50px,-150px , )
+            }
+
+            img.s{
+                @include position(50px,-250px , )
+            }
+
+            img.b{
+                @include position(50px,-400px , )
+            }
+
+            p.a{
+                @include position(50px,-10px , )
+            }
+
+            p.s{
+                @include position(-25px,-430px , )
+            }
+
+            p.b{
+                @include position(-100px,-885px , )
+            }
+
+            p.p{
+                position: relative;
+                left: -550px;
+                top: -40px;
+                font-family: thin;
+            }
+
+            img.first{
+                position: relative;
+                width: 850px;
+                height: 250px;
+                top: -170px;
+                left: -200px;
+                border-radius: 10px;
+                display: inline-block;
+            }
+
+            img.two{
+                display: inline-block;
+                position: relative;
+                left: 720px;
+                top: 170px;
+                width: 400px;
+                height: 300px;
+            }
+
             div.new{
                 position: relative;
-                background-color: rgb(170, 170, 170);
+                background-color: rgb(215, 215, 215);
                 display: flex;
                 width: 100vw;
                 height: 500px;
