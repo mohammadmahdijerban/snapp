@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1" ,
     "start": "./sass/style.scss ./style/style.css --watch"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> e3c63b347c32fe96ca356f0948487b531e510e10
   },
   "keywords": [],
   "author": "",
