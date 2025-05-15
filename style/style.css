@@ -22,7 +22,7 @@ body {
   direction: rtl;
   font-family: medium;
 }
-body main header img {
+body main header img.img {
   display: inline-block;
   position: relative;
   width: 50%;
@@ -30,14 +30,14 @@ body main header img {
   top: -400px;
   height: 400px;
 }
-body main header div {
+body main header div.div {
   position: relative;
   display: inline-block;
   background-color: rgb(0, 212, 113);
   width: 50%;
   height: 400px;
 }
-body main header div h1 {
+body main header div.div h1 {
   position: relative;
   left: -100px;
   top: 20px;
@@ -45,7 +45,7 @@ body main header div h1 {
   color: white;
   line-height: 60px;
 }
-body main header div p {
+body main header div.div p {
   position: relative;
   left: -100px;
   top: 30px;
@@ -54,7 +54,7 @@ body main header div p {
   font-size: 20px;
   line-height: 40px;
 }
-body main header div form input {
+body main header div.div form input {
   position: relative;
   left: -150px;
   top: 10px;
@@ -66,7 +66,7 @@ body main header div form input {
   background-color: transparent;
   border-bottom: 1px solid #fff;
 }
-body main header div a.link {
+body main header div.div a.link {
   position: relative;
   background-color: white;
   display: inline-block;
@@ -80,7 +80,7 @@ body main header div a.link {
   padding-right: 22px;
   font-family: bold;
 }
-body main header div a.snapp {
+body main header div.div a.snapp {
   display: inline-block;
   position: relative;
   top: 30px;
