@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: bold;
+  src: url(/font/Vazir-Bold.woff2);
+}
+@font-face {
+  font-family: medium;
+  src: url(/font/Vazir-Medium.woff2);
+}
+@font-face {
+  font-family: thin;
+  src: url(/font/Vazir-Thin.woff2);
+}
+body {
+  direction: rtl;
+  font-family: medium;
+  height: 3000px;
+  color: #000;
+}
+body main header div.p {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 500px;
+  justify-content: space-between;
+  padding: 0;
+  top: -480px;
+  left: 70px;
+}
+body main header div.p p {
+  color: #000 !important;
+  width: 400px;
+}
+body main header img.a {
+  top: -450px;
+  left: -110px;
+  position: relative;
+}
+body main header img.s {
+  top: -450px;
+  left: -380px;
+  position: relative;
+}
+body main header img.b {
+  top: -450px;
+  left: -680px;
+  position: relative;
+}
+body main header p.p {
+  position: relative;
+  color: #000 !important;
+  left: -600px !important;
+  top: -520px !important;
+}
+body main header img.first {
+  position: relative;
+  width: 850px;
+  height: 250px;
+  top: -150px;
+  left: -250px;
+  border-radius: 10px;
+  display: inline-block;
+}
+body main header img.two {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  top: -120px;
+}
+body main header div.new {
+  background-color: #dbdbdb;
+  position: relative;
+  display: flex;
+  width: 100vw;
+  top: -300px;
+  height: 1000px;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+body main header div.new div.icon {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  color: #000;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 5px;
+  align-items: center;
+  border-radius: 20px;
+  height: 100px;
+  font-family: thin;
+  margin-right: 20px;
+}
+body main header div.new div.icon p {
+  position: relative;
+  color: #000;
+  left: 50px;
+  top: -20px;
+  font-family: thin;
+  font-size: 15px;
+}
+body main header div.new div.icon img {
+  width: 50px;
+  height: 50px;
+  align-self: start;
+  margin-left: 60px;
+  margin-top: -5px;
+}
+body main header div.img {
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  top: -350px;
+  left: -130px;
+  width: 1000px;
+}
+body main header div.img img {
+  display: flex;
+  width: 100px;
+}
+body main header img.img {
+  display: inline-block;
+  position: relative;
+  width: 50vw;
+  left: -630px;
+  top: -350px;
+  height: 410px;
+}
+body main header div.div {
+  position: relative;
+  display: inline-block;
+  background-color: rgb(0, 212, 113);
+  width: 50%;
+  height: 400px;
+}
+body main header div.div h1 {
+  position: relative;
+  left: -100px;
+  top: 20px;
+  font-family: bold;
+  color: white;
+  line-height: 60px;
+}
+body main header div.div p {
+  position: relative;
+  left: -100px;
+  top: 30px;
+  font-family: thin;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 40px;
+}
+body main header div.div form input {
+  position: relative;
+  left: -150px;
+  top: 10px;
+  width: 240px;
+  height: 50px;
+  font-family: thin;
+  font-size: 19px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
+body main header div.div a.link {
+  position: relative;
+  background-color: white;
+  display: inline-block;
+  left: -420px;
+  top: -40px;
+  color: rgb(0, 212, 0);
+  width: 120px;
+  height: 50px;
+  border-radius: 7px;
+  padding: 10px;
+  padding-right: 22px;
+  font-family: bold;
+}
+body main header div.div a.snapp {
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 10px;
+  padding-right: 35px;
+  color: white;
+  font-family: bold;
+}
+body main header nav {
+  padding-left: 230px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  position: sticky;
+  top: 0;
+  right: 40px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  z-index: 1000;
+  align-items: center;
+}
+body main header nav ul.li {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 17px;
+}
+body main header nav ul.li li.icon a {
+  color: green;
+  font-family: bold;
+  font-size: 22px;
+}
+body main header nav ul.li li a {
+  color: rgb(122, 122, 122);
+  font-family: thin;
+}
+
+/*# sourceMappingURL=style.css.map */
